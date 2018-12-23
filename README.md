@@ -55,7 +55,8 @@ or
 USB SnoopyPro での USB データログも公開されてました。  
 
 [Driver Labo.](http://www.drvlabo.jp/wp/archives/72)様の初版(0.0.1)を読むと FM/AM モード切り替えのみが新規であとはベースコードの
-なかから実動作不要(動作不可?)を削除してるように見えました。  
+なかから  
+実動作不要(動作不可?)を削除してるように見えました。  
 
 これなら同じ手法で Raspberry PI で ko のみメイクで  
 
@@ -98,7 +99,7 @@ kernel ソースコード一式を必要とします。
     [19306.397329] usb 1-1.4: Product: FM Radio
     [19306.397338] usb 1-1.4: Manufacturer: SILICON LABORATORIES INC.
     [19306.442871] radio-rdpc101: USB radio driver for SUNTAC RDPC-101, Version 0.0.1
-    [19306.444549] radio-rdpc101: DeviceID=0x000A ChipID=0x0140
+    [19306.444549] radio-rdpc101: DeviceID=0x29CF ChipID=0x83CA
     [19306.444560] radio-rdpc101: device has firmware version 320.
     [19306.447187] radio-rdpc101: software version 1, hardware version 7
     [19306.565069] radio-rdpc101: set freq FM 80.00 MHz
