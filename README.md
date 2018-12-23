@@ -24,7 +24,7 @@ Raspberry PI に接続して通電した感じだと良好のようです。
 
 # 4. ソフト準備編
 
-そのままだと以下の ko がロードされますが動作不可とわかりました。  
+そのままだと radio-usb-si470x.ko がロードされますが動作不可とわかりました。  
 
     $ pwd
     /lib/modules/4.14.84-v7+/kernel/drivers/media/radio/si470x
